@@ -4,10 +4,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ResponderModel {
-    private final String teamName = "devco";
+    private final String teamName = "Triceratops";
 
     public String answer(String question) {
-        if ("".equals(question)){
+        if ("what is your name".equals(question)){
             return teamName;
         }
 
